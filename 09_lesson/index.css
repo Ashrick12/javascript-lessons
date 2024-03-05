@@ -1,0 +1,46 @@
+body {
+   background-color: #333;
+   color: pink;
+   border: red outset 10px;
+   font-size: 1.5rem;
+   margin: 3em;
+   padding: 2em;
+   font-family: monospace;
+}
+header {
+   text-align: center;
+}
+
+h2 {
+   font-size: 3em;
+}
+
+button {
+   background-color: rgb(255, 44, 44);
+   color: rgb(74, 0, 0);
+   border: red outset 5px;
+   font-size: 1.5em;
+   font-family: monospace;
+}
+
+#increment-btn {
+   background-color: rgb(255, 66, 66);
+}
+#increment-btn:hover {
+   background-color: rgb(255, 125, 125);
+   border-color: rgb(255, 65, 65);
+}
+#increment-btn:active {
+   background-color: rgb(255, 29, 29);
+}
+
+#save-btn {
+   background-color: rgb(236, 255, 66);
+}
+#save-btn:hover {
+   background-color: rgb(240, 255, 105);
+   border-color: rgb(255, 65, 65);
+}
+#save-btn:active {
+   background-color: rgb(233, 255, 33);
+}
